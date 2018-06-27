@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        android:text="@string/survey_page_title" />
+
+    <TextView
+        android:id="@+id/tvQuantity"
+        android:layout_below="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        android:text="@string/survey_quantity_label" />
+
+    <SeekBar
+        android:id="@+id/sbarQuantity"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="99dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sbarQuantity"
+        android:layout_below="@+id/sbarQuantity"
+        android:text="@string/survey_min_value_label" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/sbarQuantity"
+        android:layout_below="@+id/sbarQuantity"
+        android:text="@string/survey_max_value_label" />
+
+    <View
+        android:id="@+id/sep1"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/sbarQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#FAFAFA"/>
+
+    <TextView
+        android:id="@+id/tvExpertise"
+        android:layout_below="@+id/sep1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        android:text="@string/survey_expertise_label" />
+
+    <SeekBar
+        android:id="@+id/sbarExpertise"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvExpertise"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sbarExpertise"
+        android:layout_below="@+id/sbarExpertise"
+        android:text="@string/survey_min_value_label" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/sbarExpertise"
+        android:layout_below="@+id/sbarExpertise"
+        android:text="@string/survey_max_value_label" />
+
+    <View
+        android:id="@+id/sep2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/sbarExpertise"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#FAFAFA"/>
+
+    <TextView
+        android:id="@+id/tvCulture"
+        android:layout_below="@+id/sep2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        android:text="@string/survey_culture_label" />
+
+    <SeekBar
+        android:id="@+id/sbarCulture"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCulture"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sbarCulture"
+        android:layout_below="@+id/sbarCulture"
+        android:text="@string/survey_min_value_label" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/sbarCulture"
+        android:layout_below="@+id/sbarCulture"
+        android:text="@string/survey_max_value_label" />
+
+    <View
+        android:id="@+id/sep3"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/sbarCulture"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#FAFAFA"/>
+
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:text="@string/survey_button" />
+
+    <EditText
+        android:id="@+id/txtComments"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sep3"
+        android:layout_centerHorizontal="true"
+        android:inputType="textLongMessage"
+        android:hint="@string/survey_comments_label" />
+
+
+</RelativeLayout>

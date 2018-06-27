@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ZarmadaTest</string>
+    <string name="action_settings">Survey List</string>
+
+    <string name="error_message_result">Error</string>
+    <string name="submit_message_result">Submited</string>
+
+    <string name="survey_page_title">How would you rate us on the following?</string>
+    <string name="survey_quantity_label">Quantity</string>
+    <string name="survey_expertise_label">Expertise</string>
+    <string name="survey_culture_label">Culture</string>
+    <string name="survey_comments_label">Comments</string>
+
+    <string name="survey_button">Submit</string>
+
+    <string name="survey_min_value_label">1</string>
+    <string name="survey_max_value_label">5</string>
+
+    <string name="survey_list_quantity_label">Quantity: %1$s</string>
+    <string name="survey_list_average_label">Average: %1$s</string>
+    <string name="survey_list_culture_label">Culture: %1$s</string>
+    <string name="survey_list_expertise_label">Expertise: %1$s</string>
+
+</resources>
